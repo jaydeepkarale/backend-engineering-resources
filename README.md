@@ -1,6 +1,6 @@
 <p align="center">
   <a href="[YOUR_PROJECT_OR_WEBSITE_LINK_HERE]">
-    <img src="[YOUR_BANNER_URL_HERE]" width="900px" alt="Awesome Backend Roadmap Banner">
+    <img src="docs/banner_resize.png" width="900px" alt="Awesome Backend Roadmap Banner">
   </a>
 </p>
 
