@@ -98,18 +98,21 @@ Your primary tool. Master one language first before trying to learn others. The 
 * **Tier 2: Best Practices**
     * [**Microsoft API Design Guidance (Docs)**](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) - A fantastic, vendor-neutral guide on API best practices.
     * [**Build APIs You Won't Hate (Book)**](https://apisyouwonthate.com/books/build-apis-you-wont-hate) - A pragmatic and popular book on creating usable and maintainable APIs.
+    * [**Designing Robust and Predictable APIs with Idempotency (Stripe)**](https://stripe.com/blog/idempotency) - How Stripe makes mutating endpoints safe to retry using idempotency keys, plus exponential backoff, jitter, and the thundering herd problem. The reliability half of API design that most tutorials skip.
 
 ### 🗄️ Databases
 
 #### General Concepts
 * [**Use The Index, Luke! (Website)**](https://use-the-index-luke.com/) - A masterclass on database indexing, the most important topic for performance.
 * [**CMU Intro to Database Systems (Course)**](https://www.youtube.com/playlist?list=PLSE8OD_ftxgvWwpaVyMMProV454h2M-4w) - A free, university-level course for a deep, foundational understanding.
+* [**How Discord Stores Trillions of Messages (Case Study)**](https://discord.com/blog/how-discord-stores-trillions-of-messages) - A rare, honest post-mortem on partition key design going wrong at scale: hot partitions, compaction backlogs, GC pauses, and the request coalescing layer they built to fix it. Shows why the theory above matters in production.
 
 #### 🐘 PostgreSQL (Relational)
 * **Tier 1: Get Started**
     * [**Postgres Exercises (Interactive)**](https://pgexercises.com/) - Learn SQL by doing.
 * **Tier 2: Deep Dive**
     * [**Official PostgreSQL Documentation (Docs)**](https://www.postgresql.org/docs/) - World-class documentation. Learn to navigate it.
+    * [**PostgreSQL 14 Internals (Free Book)**](https://postgrespro.com/community/books/internals) - A free, rigorous walk through MVCC and snapshot isolation, the buffer cache, WAL, locking, and the query planner. Read this when `EXPLAIN ANALYZE` output stops being obvious.
     * Learn about `EXPLAIN ANALYZE` to debug your query performance.
 
 #### 🍃 MongoDB (NoSQL)
@@ -132,6 +135,7 @@ Your primary tool. Master one language first before trying to learn others. The 
     * [**RabbitMQ Tutorials (Official)**](https://www.rabbitmq.com/getstarted.html) - Fantastic tutorials with examples in many languages that teach the core patterns of message queues.
     * [**Celery Docs (Python)**](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html) - The go-to library for background jobs in the Python ecosystem.
 * **Tier 2: Architectural Patterns**
+    * [**The Log: What Every Software Engineer Should Know (LinkedIn Engineering)**](https://www.linkedin.com/blog/engineering/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) - Jay Kreps on the append-only log as the abstraction underneath replication, consensus, change data capture, and stream processing. The essay that explains *why* Kafka exists.
     * Re-read the chapters on Message Brokers in **"Designing Data-Intensive Applications"**.
 
 ### 🐳 Docker & CI/CD
@@ -162,11 +166,13 @@ Pick one provider and learn its core services. The concepts are transferable.
     * [**Redis in Action (Book)**](https://redis.com/ebook/redis-in-action/) - A classic, practical guide to solving problems with Redis.
 * **Tier 2: Caching Patterns**
     * [**AWS Caching Patterns (Article)**](https://aws.amazon.com/caching/caching-patterns/) - A great overview of common strategies like Cache-Aside, Read-Through, and Write-Through.
+    * [**Scaling Memcache at Facebook (Paper)**](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala) - The canonical paper on caching at scale. Leases to kill stampedes and stale sets, invalidation, and cross-region replication. Free and open access via USENIX NSDI '13.
 
 ### 🔭 Observability & Logging
 
 * **Tier 1: The Three Pillars**
     * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/observability-vs-monitoring) - Understand the modern philosophy of observability (Logs, Metrics, Traces).
+    * [**Google SRE Book (Free Book)**](https://sre.google/sre-book/table-of-contents/) - Free online. Start with Ch. 4 (Service Level Objectives) and Ch. 6 (Monitoring Distributed Systems): the tools below tell you *how* to measure, this tells you *what* to measure and what "reliable enough" means.
 * **Tier 2: Tooling**
     * [**Prometheus & Grafana (Docs)**](https://prometheus.io/docs/introduction/overview/) - Learn the industry-standard open-source stack for metrics and dashboards.
     * [**OpenTelemetry (Docs)**](https://opentelemetry.io/docs/) - The future of instrumentation. Learn how to generate traces from your applications.
@@ -181,6 +187,7 @@ This is the capstone that brings everything together.
 * **Tier 2: Deep Dives & Real World Examples**
     * [**Hussein Nasser (YouTube)**](https://www.youtube.com/@hnasr) - Extremely deep dives into specific backend technologies and protocols.
     * [**Engineering Blogs**](https://github.com/kilimchoi/engineering-blogs) - Read blogs from companies like Netflix, Uber, and Twitter to see how they solve problems at massive scale.
+    * [**Catalog of Patterns of Distributed Systems (Martin Fowler)**](https://martinfowler.com/articles/patterns-of-distributed-systems/) - Unmesh Joshi's free catalog of the building blocks real distributed systems are made of: write-ahead log, leader and followers, quorum, leases, Lamport and hybrid clocks. The missing bridge between DDIA's theory and actual implementation.
 * **Tier 3: Mastery**
     * Read **"Designing Data-Intensive Applications"** for a second time. It will all make much more sense now.
 
