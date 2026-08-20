@@ -105,6 +105,7 @@ Your primary tool. Master one language first before trying to learn others. The 
 #### General Concepts
 * [**Use The Index, Luke! (Website)**](https://use-the-index-luke.com/) - A masterclass on database indexing, the most important topic for performance.
 * [**CMU Intro to Database Systems (Course)**](https://www.youtube.com/playlist?list=PLSE8OD_ftxgvWwpaVyMMProV454h2M-4w) - A free, university-level course for a deep, foundational understanding.
+* [**Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service (Paper)**](https://www.usenix.org/conference/atc22/presentation/elhemali) - The same hot-partition problem seen from the *other* side of the API: how the database itself copes. Admission control, bursting, adaptive capacity, splitting partitions for throughput rather than size, and continuous verification of data at rest. Free via USENIX ATC '22.
 
 #### 🐘 PostgreSQL (Relational)
 * **Tier 1: Get Started**
@@ -127,6 +128,8 @@ Your primary tool. Master one language first before trying to learn others. The 
     * [**Official OAuth 2.0 Website (Docs)**](https://oauth.net/2/) - Go to the source to understand the specification.
 * **Tier 2: Implementation**
     * [**Okta & Auth0 Developer Blogs**](https://developer.okta.com/blog/) - The industry leaders in this space, with countless tutorials on every auth-related topic.
+    * [**OAuth 2.0 Security Best Current Practice (Spec)**](https://www.rfc-editor.org/rfc/rfc9700.html) - RFC 9700, the IETF's 2025 update to the OAuth threat model. Read Section 2 for the short list of things you must do, and Section 4 for the concrete attacks behind each rule. It deprecates the implicit grant and password grant, which plenty of tutorials still teach.
+    * [**Zanzibar: Google's Consistent, Global Authorization System (Paper)**](https://www.usenix.org/conference/atc19/presentation/pang) - Authentication tells you *who* a user is; this is the far harder half. Google's relationship-based ACL system, and the design behind Auth0 FGA, SpiceDB, and OpenFGA. Trillions of ACLs, and a genuinely clever answer to the consistency problem in "did the permission change before or after this read?".
 
 ### 🔄 Background Jobs & Queues
 
@@ -142,6 +145,7 @@ Your primary tool. Master one language first before trying to learn others. The 
 * **Tier 1: Containerization with Docker**
     * [**Play with Docker (Interactive)**](https://labs.play-with-docker.com/) - A live Docker environment in your browser.
     * [**Docker for the Absolute Beginner (Course)**](https://www.udemy.com/course/docker-for-the-absolute-beginner/) - A highly-rated, gentle introduction.
+    * [**Demystifying Containers, Part I: Kernel Space (Article)**](https://www.cncf.io/blog/2019/06/24/demystifying-containers-part-i-kernel-space/) - A container is not a lightweight VM, it is a process with a particular kernel configuration. Sascha Grunert (CRI-O maintainer) walks from `chroot` through all seven namespaces and cgroups with commands you can run yourself. The piece that turns Docker from magic into mechanism.
 * **Tier 2: Automation with CI/CD**
     * [**GitHub Actions Documentation (Docs)**](https://docs.github.com/en/actions) - Learn to automate your build, test, and deployment workflows directly from GitHub.
     * [**GitLab CI/CD Documentation (Docs)**](https://docs.gitlab.com/ee/ci/) - The equivalent for the GitLab ecosystem.
@@ -175,6 +179,7 @@ Pick one provider and learn its core services. The concepts are transferable.
 * **Tier 2: Tooling**
     * [**Prometheus & Grafana (Docs)**](https://prometheus.io/docs/introduction/overview/) - Learn the industry-standard open-source stack for metrics and dashboards.
     * [**OpenTelemetry (Docs)**](https://opentelemetry.io/docs/) - The future of instrumentation. Learn how to generate traces from your applications.
+    * [**Dapper: A Large-Scale Distributed Systems Tracing Infrastructure (Paper)**](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/) - The paper that invented the trace-and-span model every tool above implements. Explains *why* tracing works the way it does: instrument shared libraries rather than application code, and sample aggressively, because the alternative is unaffordable in production.
 
 ### 🏗️ System Design
 
