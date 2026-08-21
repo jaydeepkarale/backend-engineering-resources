@@ -105,7 +105,6 @@ Your primary tool. Master one language first before trying to learn others. The 
 #### General Concepts
 * [**Use The Index, Luke! (Website)**](https://use-the-index-luke.com/) - A masterclass on database indexing, the most important topic for performance.
 * [**CMU Intro to Database Systems (Course)**](https://www.youtube.com/playlist?list=PLSE8OD_ftxgvWwpaVyMMProV454h2M-4w) - A free, university-level course for a deep, foundational understanding.
-* [**Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service (Paper)**](https://www.usenix.org/conference/atc22/presentation/elhemali) - The hot-partition problem from the database's own side: admission control, bursting, adaptive capacity.
 
 #### 🐘 PostgreSQL (Relational)
 * **Tier 1: Get Started**
@@ -128,7 +127,7 @@ Your primary tool. Master one language first before trying to learn others. The 
     * [**Official OAuth 2.0 Website (Docs)**](https://oauth.net/2/) - Go to the source to understand the specification.
 * **Tier 2: Implementation**
     * [**Okta & Auth0 Developer Blogs**](https://developer.okta.com/blog/) - The industry leaders in this space, with countless tutorials on every auth-related topic.
-    * [**OAuth 2.0 Security Best Current Practice (Spec)**](https://www.rfc-editor.org/rfc/rfc9700.html) - The IETF's 2025 OAuth threat model; deprecates the implicit and password grants tutorials still teach.
+    * [**Best Current Practice for OAuth 2.0 Security (Spec)**](https://www.rfc-editor.org/rfc/rfc9700.html) - RFC 9700, the IETF's 2025 update to OAuth security; deprecates the implicit and password grants tutorials still teach.
     * [**Zanzibar: Google's Consistent, Global Authorization System (Paper)**](https://www.usenix.org/conference/atc19/presentation/pang) - Google's relationship-based authorization system, and the design behind SpiceDB, OpenFGA, and Auth0 FGA.
 
 ### 🔄 Background Jobs & Queues
@@ -176,10 +175,10 @@ Pick one provider and learn its core services. The concepts are transferable.
 * **Tier 1: The Three Pillars**
     * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/observability-vs-monitoring) - Understand the modern philosophy of observability (Logs, Metrics, Traces).
     * [**Google SRE Book (Book)**](https://sre.google/sre-book/table-of-contents/) - Free online; read Ch. 4 (SLOs) and Ch. 6 (Monitoring Distributed Systems) to learn what to measure, not just how.
+    * [**Dapper: A Large-Scale Distributed Systems Tracing Infrastructure (Paper)**](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/) - How Google made always-on tracing affordable: sampling, and instrumenting shared libraries instead of application code.
 * **Tier 2: Tooling**
     * [**Prometheus & Grafana (Docs)**](https://prometheus.io/docs/introduction/overview/) - Learn the industry-standard open-source stack for metrics and dashboards.
     * [**OpenTelemetry (Docs)**](https://opentelemetry.io/docs/) - The future of instrumentation. Learn how to generate traces from your applications.
-    * [**Dapper: A Large-Scale Distributed Systems Tracing Infrastructure (Paper)**](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/) - The paper that invented the trace-and-span model, and why tracing samples rather than records all.
 
 ### 🏗️ System Design
 
@@ -192,7 +191,8 @@ This is the capstone that brings everything together.
     * [**Hussein Nasser (YouTube)**](https://www.youtube.com/@hnasr) - Extremely deep dives into specific backend technologies and protocols.
     * [**Engineering Blogs**](https://github.com/kilimchoi/engineering-blogs) - Read blogs from companies like Netflix, Uber, and Twitter to see how they solve problems at massive scale.
     * [**Catalog of Patterns of Distributed Systems (Article)**](https://martinfowler.com/articles/patterns-of-distributed-systems/) - Unmesh Joshi's catalog of the building blocks: write-ahead log, leader and followers, quorum, leases, and Lamport clocks.
-    * [**How Discord Stores Trillions of Messages (Case Study)**](https://discord.com/blog/how-discord-stores-trillions-of-messages) - Hot partitions, compaction backlogs and GC pauses on Cassandra, and the request-coalescing layer and ScyllaDB migration that fixed them.
+    * [**How Discord Stores Trillions of Messages (Case Study)**](https://discord.com/blog/how-discord-stores-trillions-of-messages) - Hot partitions, compaction backlogs, and GC pauses on Cassandra: the request-coalescing layer and ScyllaDB migration that fixed them.
+    * [**Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service (Paper)**](https://www.usenix.org/conference/atc22/presentation/elhemali) - The hot-partition problem from the database's own side: admission control, bursting, adaptive capacity.
 * **Tier 3: Mastery**
     * Read **"Designing Data-Intensive Applications"** for a second time. It will all make much more sense now.
 
