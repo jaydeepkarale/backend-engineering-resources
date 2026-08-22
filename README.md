@@ -175,7 +175,7 @@ Pick one provider and learn its core services. The concepts are transferable.
 * **Tier 1: The Three Pillars**
     * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/observability-vs-monitoring) - Understand the modern philosophy of observability (Logs, Metrics, Traces).
     * [**Google SRE Book (Book)**](https://sre.google/sre-book/table-of-contents/) - Free online; read Ch. 4 (SLOs) and Ch. 6 (Monitoring Distributed Systems) to learn what to measure, not just how.
-    * [**Dapper: A Large-Scale Distributed Systems Tracing Infrastructure (Paper)**](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/) - How Google made always-on tracing affordable: sampling, and instrumenting shared libraries instead of application code.
+    * [**Dapper, a Large-Scale Distributed Systems Tracing Infrastructure (Paper)**](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/) - How Google made always-on tracing affordable: sampling, and instrumenting shared libraries instead of application code.
 * **Tier 2: Tooling**
     * [**Prometheus & Grafana (Docs)**](https://prometheus.io/docs/introduction/overview/) - Learn the industry-standard open-source stack for metrics and dashboards.
     * [**OpenTelemetry (Docs)**](https://opentelemetry.io/docs/) - The future of instrumentation. Learn how to generate traces from your applications.
