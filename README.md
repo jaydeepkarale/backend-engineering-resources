@@ -154,7 +154,7 @@ Pick one provider and learn its core services. The concepts are transferable.
 * **Tier 1: Cloud Fundamentals**
     * **AWS:** [**AWS Skill Builder - Cloud Practitioner Essentials**](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials)
     * **GCP:** [**Google Cloud Skills Boost - Learning Paths**](https://www.cloudskillsboost.google/paths)
-    * **Azure:** [**Microsoft Learn - Azure Fundamentals**](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/)
+    * **Azure:** [**Microsoft Learn - Azure Fundamentals**](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/)
 * **Tier 2: Core Developer Services**
     * Focus on the key services: **Compute** (EC2, Lambda), **Storage** (S3), **Databases** (RDS), and **Networking** (VPC).
     * [**freeCodeCamp's AWS for Developers Course (Video)**](https://www.youtube.com/watch?v=SOTamWd6-2c) - A practical, 10-hour course.
@@ -162,16 +162,16 @@ Pick one provider and learn its core services. The concepts are transferable.
 ### ⚡ Caching
 
 * **Tier 1: Concepts & Tools (Redis)**
-    * [**Redis University (Official Courses)**](https://redis.com/redis-enterprise/training/redis-university/) - The best place to start learning Redis from the experts.
-    * [**Redis in Action (Book)**](https://redis.com/ebook/redis-in-action/) - A classic, practical guide to solving problems with Redis.
+    * [**Redis University (Official Courses)**](https://university.redis.io/) - The best place to start learning Redis from the experts.
+    * [**Redis in Action (Book)**](https://www.manning.com/books/redis-in-action) - A classic, practical Manning guide to solving problems with Redis (paid; no longer free on redis.io).
 * **Tier 2: Caching Patterns**
-    * [**AWS Caching Patterns (Article)**](https://aws.amazon.com/caching/caching-patterns/) - A great overview of common strategies like Cache-Aside, Read-Through, and Write-Through.
+    * [**AWS Caching Patterns (Docs)**](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html) - Overview of Cache-Aside (lazy loading) and Write-Through from the AWS Database Caching Strategies whitepaper.
     * [**Scaling Memcache at Facebook (Paper)**](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala) - The canonical paper on caching at scale. Leases to kill stampedes and stale sets, invalidation, and cross-region replication. Free and open access via USENIX NSDI '13.
 
 ### 🔭 Observability & Logging
 
 * **Tier 1: The Three Pillars**
-    * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/observability-vs-monitoring) - Understand the modern philosophy of observability (Logs, Metrics, Traces).
+    * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/blog/difference-between-observability-monitoring) - Understand the modern philosophy of observability (Logs, Metrics, Traces).
     * [**Google SRE Book (Free Book)**](https://sre.google/sre-book/table-of-contents/) - Free online. Start with Ch. 4 (Service Level Objectives) and Ch. 6 (Monitoring Distributed Systems): the tools below tell you *how* to measure, this tells you *what* to measure and what "reliable enough" means.
 * **Tier 2: Tooling**
     * [**Prometheus & Grafana (Docs)**](https://prometheus.io/docs/introduction/overview/) - Learn the industry-standard open-source stack for metrics and dashboards.
@@ -183,7 +183,7 @@ This is the capstone that brings everything together.
 
 * **Tier 1: Foundations**
     * [**System Design Primer (GitHub Repo)**](https://github.com/donnemartin/system-design-primer) - The most famous free resource, covering a huge range of topics.
-    * [**Gaurav Sen (YouTube)**](https://www.youtube.com/@GauravSensei) - Excellent videos breaking down system design interview questions (e.g., "Design WhatsApp").
+    * [**Gaurav Sen (YouTube)**](https://www.youtube.com/@gkcs) - Excellent videos breaking down system design interview questions (e.g., "Design WhatsApp").
 * **Tier 2: Deep Dives & Real World Examples**
     * [**Hussein Nasser (YouTube)**](https://www.youtube.com/@hnasr) - Extremely deep dives into specific backend technologies and protocols.
     * [**Engineering Blogs**](https://github.com/kilimchoi/engineering-blogs) - Read blogs from companies like Netflix, Uber, and Twitter to see how they solve problems at massive scale.
