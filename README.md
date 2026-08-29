@@ -171,7 +171,7 @@ Pick one provider and learn its core services. The concepts are transferable.
 ### 🔭 Observability & Logging
 
 * **Tier 1: The Three Pillars**
-    * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/blog/difference-between-observability-monitoring) - Understand the modern philosophy of observability (Logs, Metrics, Traces).
+    * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/blog/difference-between-observability-monitoring) - Understand how observability and monitoring differ in purpose while sharing the same data.
     * [**Google SRE Book (Free Book)**](https://sre.google/sre-book/table-of-contents/) - Free online. Start with Ch. 4 (Service Level Objectives) and Ch. 6 (Monitoring Distributed Systems): the tools below tell you *how* to measure, this tells you *what* to measure and what "reliable enough" means.
 * **Tier 2: Tooling**
     * [**Prometheus & Grafana (Docs)**](https://prometheus.io/docs/introduction/overview/) - Learn the industry-standard open-source stack for metrics and dashboards.
