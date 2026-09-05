@@ -63,6 +63,7 @@ Your primary tool. Master one language first before trying to learn others. The 
 * **Tier 2: Effective Python**
     * [**Python Crash Course (Book)**](https://www.amazon.in/Python-Crash-Course-2nd-Edition/dp/1593279280) - A project-based book to start building real applications.
     * [**Official Python Tutorial (Docs)**](https://docs.python.org/3/tutorial/) - When in doubt, go to the source. It's concise and comprehensive.
+    * [**Python os Module Cheatsheet (Reference)**](cheatsheets/Python_OS_Module_Cheatsheet.pdf) - A six-page visual reference for Python's os module, covering path helpers, directory traversal, permissions, and atomic renames.
 * **Tier 3: Mastery**
     * [**Fluent Python (Book)**](https://www.amazon.in/Fluent-Python-Concise-Effective-Programming/dp/9352132335) - The ultimate book for understanding how to write "Pythonic" code. This separates the amateurs from the pros.
 
