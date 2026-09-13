@@ -104,7 +104,7 @@ Your primary tool. Master one language first before trying to learn others. The 
 
 #### General Concepts
 * [**Use The Index, Luke! (Website)**](https://use-the-index-luke.com/) - A masterclass on database indexing, the most important topic for performance.
-* [**CMU Intro to Database Systems (Course)**](https://www.youtube.com/playlist?list=PLSE8OD_ftxgvWwpaVyMMProV454h2M-4w) - A free, university-level course for a deep, foundational understanding.
+* [**CMU Intro to Database Systems (Course)**](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq) - A free, university-level course for a deep, foundational understanding.
 * [**How Discord Stores Trillions of Messages (Case Study)**](https://discord.com/blog/how-discord-stores-trillions-of-messages) - A rare, honest post-mortem on partition key design going wrong at scale: hot partitions, compaction backlogs, GC pauses, and the request coalescing layer they built to fix it. Shows why the theory above matters in production.
 
 #### 🐘 PostgreSQL (Relational)
@@ -124,7 +124,7 @@ Your primary tool. Master one language first before trying to learn others. The 
 ### 🔑 Authentication & Authorization
 
 * **Tier 1: Concepts**
-    * [**OAuth 2.0 and OpenID Connect (Videos)**](https://www.youtube.com/watch?v=t180zO0I_hY) - An excellent conceptual overview from Okta.
+    * [**OAuth 2.0 and OpenID Connect (Videos)**](https://www.youtube.com/watch?v=996OiexHze0) - An excellent conceptual overview from Okta.
     * [**Official OAuth 2.0 Website (Docs)**](https://oauth.net/2/) - Go to the source to understand the specification.
 * **Tier 2: Implementation**
     * [**Okta & Auth0 Developer Blogs**](https://developer.okta.com/blog/) - The industry leaders in this space, with countless tutorials on every auth-related topic.
@@ -157,7 +157,6 @@ Pick one provider and learn its core services. The concepts are transferable.
     * **Azure:** [**Microsoft Learn - Azure Fundamentals**](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/)
 * **Tier 2: Core Developer Services**
     * Focus on the key services: **Compute** (EC2, Lambda), **Storage** (S3), **Databases** (RDS), and **Networking** (VPC).
-    * [**freeCodeCamp's AWS for Developers Course (Video)**](https://www.youtube.com/watch?v=SOTamWd6-2c) - A practical, 10-hour course.
 
 ### ⚡ Caching
 
