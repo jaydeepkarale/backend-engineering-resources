@@ -64,7 +64,7 @@ Your primary tool. Master one language first before trying to learn others. The 
     * [**Python Crash Course (Book)**](https://www.amazon.in/Python-Crash-Course-2nd-Edition/dp/1593279280) - A project-based book to start building real applications.
     * [**Official Python Tutorial (Docs)**](https://docs.python.org/3/tutorial/) - When in doubt, go to the source. It's concise and comprehensive.
 * **Tier 3: Mastery**
-    * [**Fluent Python (Book)**](https://www.amazon.in/Fluent-Python-Concise-Effective-Programming/dp/9352132335) - The ultimate book for understanding how to write "Pythonic" code. This separates the amateurs from the pros.
+    * [**Fluent Python (Book)**](https://www.amazon.in/dp/9355420838) - The ultimate book for understanding how to write "Pythonic" code. This separates the amateurs from the pros.
 
 #### 🐹 Go (Golang)
 
