@@ -91,7 +91,7 @@ Your primary tool. Master one language first before trying to learn others. The 
 
 * **Tier 1: Concepts**
     * [**Richardson Maturity Model (Article)**](https://martinfowler.com/articles/richardsonMaturityModel.html) - Essential reading to understand what makes an API truly "RESTful".
-    * [**What is REST (Video)**](https://www.youtube.com/watch?v=qVTAB8Z2VmA) - A great conceptual overview from Hussein Nasser.
+    * [**What is REST (Video)**](https://www.youtube.com/watch?v=qVTAB8Z2VmA) - A great conceptual overview from Telusko.
 * **Tier 2: Best Practices**
     * [**Microsoft API Design Guidance (Docs)**](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) - A fantastic, vendor-neutral guide on API best practices.
     * [**Build APIs You Won't Hate (Book)**](https://apisyouwonthate.com/books/build-apis-you-wont-hate) - A pragmatic and popular book on creating usable and maintainable APIs.
