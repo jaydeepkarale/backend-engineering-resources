@@ -152,7 +152,7 @@ Your primary tool. Master one language first before trying to learn others. The 
 Pick one provider and learn its core services. The concepts are transferable.
 
 * **Tier 1: Cloud Fundamentals**
-    * **AWS:** [**AWS Skill Builder - Cloud Practitioner Essentials**](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials)
+    * **AWS:** [**AWS Skill Builder - Cloud Practitioner Essentials**](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)
     * **GCP:** [**Google Cloud Skills Boost - Learning Paths**](https://www.cloudskillsboost.google/paths)
     * **Azure:** [**Microsoft Learn - Azure Fundamentals**](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/)
 * **Tier 2: Core Developer Services**
