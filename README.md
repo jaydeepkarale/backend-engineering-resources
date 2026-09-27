@@ -1,14 +1,12 @@
 <p align="center">
-  <a href="[YOUR_PROJECT_OR_WEBSITE_LINK_HERE]">
-    <img src="docs/banner_resize.png" width="900px" alt="Awesome Backend Roadmap Banner">
-  </a>
+  <img src="docs/banner_resize.png" width="900px" alt="Awesome Backend Roadmap Banner">
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jaydeepkarale/">
     <img src="https://img.shields.io/badge/-Follow%20Me%20on%20LinkedIn-blue?logo=linkedin&style=flat-square" alt="LinkedIn">
   </a>
-  <a href="(https://x.com/_jaydeepkarale)">
+  <a href="https://x.com/_jaydeepkarale">
     <img src="https://img.shields.io/twitter/follow/_jaydeepkarale?style=social" alt="Twitter">
   </a>
 </p>
@@ -17,9 +15,7 @@
   <a href="https://github.com/sindresorhus/awesome">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
   </a>
-  <a href="[LINK_TO_YOUR_CONTRIBUTING.MD_FILE]">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
 </p>
 
 <hr/>
@@ -199,9 +195,7 @@ This is the capstone that brings everything together.
 
 ## 🤝 Contributing
 
-Contributions are welcome! This is a community-driven project. If you have a resource that you think is essential, or you've found a broken link, please feel free to open a [GitHub Issue]([YOUR_REPO_URL]/issues) or submit a pull request.
-
-Please read our [contributing guide]([LINK_TO_YOUR_CONTRIBUTING.MD]) for details on our code of conduct and the process for submitting pull requests to us.
+Contributions are welcome! This is a community-driven project. If you have a resource that you think is essential, or you've found a broken link, please feel free to open a [GitHub Issue](https://github.com/jaydeepkarale/backend-engineering-resources/issues) or submit a pull request.
 
 ## 🙏 Show Your Support
 
