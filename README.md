@@ -1,14 +1,12 @@
 <p align="center">
-  <a href="[YOUR_PROJECT_OR_WEBSITE_LINK_HERE]">
-    <img src="docs/banner_resize.png" width="900px" alt="Awesome Backend Roadmap Banner">
-  </a>
+  <img src="docs/banner_resize.png" width="900px" alt="Awesome Backend Roadmap Banner">
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jaydeepkarale/">
     <img src="https://img.shields.io/badge/-Follow%20Me%20on%20LinkedIn-blue?logo=linkedin&style=flat-square" alt="LinkedIn">
   </a>
-  <a href="(https://x.com/_jaydeepkarale)">
+  <a href="https://x.com/_jaydeepkarale">
     <img src="https://img.shields.io/twitter/follow/_jaydeepkarale?style=social" alt="Twitter">
   </a>
 </p>
@@ -17,9 +15,7 @@
   <a href="https://github.com/sindresorhus/awesome">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
   </a>
-  <a href="[LINK_TO_YOUR_CONTRIBUTING.MD_FILE]">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
 </p>
 
 <hr/>
@@ -66,7 +62,7 @@ Comprehensive video-based learning paths organized by platform.
 
 #### YouTube Channels
 * [**Hussein Nasser**](https://www.youtube.com/@hnasr) - Deep dives into backend technologies and protocols
-* [**Gaurav Sen**](https://www.youtube.com/@GauravSensei) - System design interview preparation
+* [**Gaurav Sen**](https://www.youtube.com/@gkcs) - System design interview preparation
 * [**freeCodeCamp.org**](https://www.youtube.com/@freecodecamp) - Full-length courses on various topics
 * [**MIT OpenCourseWare**](https://www.youtube.com/@mitocw) - University-level computer science courses
 
@@ -88,7 +84,7 @@ Stay updated with industry trends and deep technical insights.
 #### Individual Technical Blogs
 * [**Martin Fowler**](https://martinfowler.com/) - Software architecture and design patterns
 * [**High Scalability**](http://highscalability.com/) - System architecture case studies
-* [**All Things Distributed**](https://www.allthingsdistributed.com/) - AWS CTO's insights on distributed systems
+* [**All Things Distributed**](https://www.allthingsdistributed.com/) - Amazon.com CTO Werner Vogels on distributed systems
 
 ---
 
@@ -104,8 +100,9 @@ Master one language first before trying to learn others. The goal is to write cl
 * **Tier 2: Effective Python**
     * [**Python Crash Course (Book)**](https://www.amazon.in/Python-Crash-Course-2nd-Edition/dp/1593279280) - A project-based book to start building real applications.
     * [**Official Python Tutorial (Docs)**](https://docs.python.org/3/tutorial/) - When in doubt, go to the source. It's concise and comprehensive.
+    * [**Python os Module Cheatsheet (Reference)**](cheatsheets/Python_OS_Module_Cheatsheet.pdf) - A six-page reference for Python's os module, covering path helpers, directory traversal, permissions, and atomic renames.
 * **Tier 3: Mastery**
-    * [**Fluent Python (Book)**](https://www.amazon.in/Fluent-Python-Concise-Effective-Programming/dp/9352132335) - The ultimate book for understanding how to write "Pythonic" code. This separates the amateurs from the pros.
+    * [**Fluent Python (Book)**](https://www.amazon.in/dp/9355420838) - The ultimate book for understanding how to write "Pythonic" code. This separates the amateurs from the pros.
 
 #### 🐹 Go (Golang)
 * **Tier 1: The Basics**
@@ -132,10 +129,11 @@ Master one language first before trying to learn others. The goal is to write cl
 ### 🔌 API Design & Development
 * **Tier 1: REST Fundamentals**
     * [**Richardson Maturity Model (Article)**](https://martinfowler.com/articles/richardsonMaturityModel.html) - Essential reading to understand what makes an API truly "RESTful".
-    * [**What is REST (Video)**](https://www.youtube.com/watch?v=qVTAB8Z2VmA) - A great conceptual overview from Hussein Nasser.
+    * [**What is REST (Video)**](https://www.youtube.com/watch?v=qVTAB8Z2VmA) - A great conceptual overview from Telusko.
 * **Tier 2: Best Practices & Standards**
     * [**Microsoft API Design Guidance (Docs)**](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) - A fantastic, vendor-neutral guide on API best practices.
     * [**Build APIs You Won't Hate (Book)**](https://apisyouwonthate.com/books/build-apis-you-wont-hate) - A pragmatic and popular book on creating usable and maintainable APIs.
+    * [**Designing Robust and Predictable APIs with Idempotency (Article)**](https://stripe.com/blog/idempotency) - Stripe on making mutating endpoints safe to retry: idempotency keys, exponential backoff, and jitter.
 * **Tier 3: Advanced API Patterns**
     * **GraphQL** - Learn query-based APIs
     * **gRPC** - High-performance RPC framework
@@ -145,13 +143,14 @@ Master one language first before trying to learn others. The goal is to write cl
 
 #### Fundamentals
 * [**Use The Index, Luke! (Website)**](https://use-the-index-luke.com/) - A masterclass on database indexing, the most important topic for performance.
-* [**CMU Intro to Database Systems (Course)**](https://www.youtube.com/playlist?list=PLSE8OD_ftxgvWwpaVyMMProV454h2M-4w) - A free, university-level course for a deep, foundational understanding.
+* [**CMU Intro to Database Systems (Course)**](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq) - A free, university-level course for a deep, foundational understanding.
 
 #### 🐘 Relational Databases (PostgreSQL)
 * **Tier 1: SQL Mastery**
     * [**Postgres Exercises (Interactive)**](https://pgexercises.com/) - Learn SQL by doing.
 * **Tier 2: PostgreSQL Deep Dive**
     * [**Official PostgreSQL Documentation (Docs)**](https://www.postgresql.org/docs/) - World-class documentation. Learn to navigate it.
+    * [**PostgreSQL 14 Internals (Book)**](https://postgrespro.com/community/books/internals) - A free, rigorous walk through MVCC, the buffer cache, WAL, locking, and the query planner.
     * Learn about `EXPLAIN ANALYZE` to debug your query performance.
 * **Tier 3: Advanced Features**
     * **Stored Procedures & Functions**
@@ -170,10 +169,12 @@ Master one language first before trying to learn others. The goal is to write cl
 
 ### 🔐 Security & Authentication
 * **Tier 1: Authentication Basics**
-    * [**OAuth 2.0 and OpenID Connect (Videos)**](https://www.youtube.com/watch?v=t180zO0I_hY) - An excellent conceptual overview from Okta.
+    * [**OAuth 2.0 and OpenID Connect (Videos)**](https://www.youtube.com/watch?v=996OiexHze0) - An excellent conceptual overview from Okta.
     * [**Official OAuth 2.0 Website (Docs)**](https://oauth.net/2/) - Go to the source to understand the specification.
 * **Tier 2: Implementation Patterns**
     * [**Okta & Auth0 Developer Blogs**](https://developer.okta.com/blog/) - The industry leaders in this space, with countless tutorials on every auth-related topic.
+    * [**Best Current Practice for OAuth 2.0 Security (Spec)**](https://www.rfc-editor.org/rfc/rfc9700.html) - RFC 9700, the IETF's 2025 update to OAuth security; deprecates the implicit and password grants tutorials still teach.
+    * [**Zanzibar: Google's Consistent, Global Authorization System (Paper)**](https://www.usenix.org/conference/atc19/presentation/pang) - Google's relationship-based authorization system, and the design behind SpiceDB, OpenFGA, and Auth0 FGA.
 * **Tier 3: Advanced Security**
     * **JWT Best Practices**
     * **Rate Limiting & DDoS Protection**
@@ -187,6 +188,7 @@ Master one language first before trying to learn others. The goal is to write cl
 * **Tier 1: Docker Fundamentals**
     * [**Play with Docker (Interactive)**](https://labs.play-with-docker.com/) - A live Docker environment in your browser.
     * [**Docker for the Absolute Beginner (Course)**](https://www.udemy.com/course/docker-for-the-absolute-beginner/) - A highly-rated, gentle introduction.
+    * [**Demystifying Containers, Part I: Kernel Space (Article)**](https://www.cncf.io/blog/2019/06/24/demystifying-containers-part-i-kernel-space/) - From `chroot` through namespaces and cgroups: a container is a process, not a lightweight VM.
 * **Tier 2: Container Orchestration**
     * **Kubernetes Basics**
     * **Docker Compose for Multi-Container Apps**
@@ -209,12 +211,11 @@ Master one language first before trying to learn others. The goal is to write cl
 Pick one provider and learn its core services. The concepts are transferable.
 
 * **Tier 1: Cloud Fundamentals**
-    * **AWS:** [**AWS Skill Builder - Cloud Practitioner Essentials**](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials)
+    * **AWS:** [**AWS Skill Builder - Cloud Practitioner Essentials**](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)
     * **GCP:** [**Google Cloud Skills Boost - Learning Paths**](https://www.cloudskillsboost.google/paths)
-    * **Azure:** [**Microsoft Learn - Azure Fundamentals**](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/)
+    * **Azure:** [**Microsoft Learn - Azure Fundamentals**](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/)
 * **Tier 2: Core Developer Services**
     * Focus on the key services: **Compute** (EC2, Lambda), **Storage** (S3), **Databases** (RDS), and **Networking** (VPC).
-    * [**freeCodeCamp's AWS for Developers Course (Video)**](https://www.youtube.com/watch?v=SOTamWd6-2c) - A practical, 10-hour course.
 * **Tier 3: Advanced Cloud Architecture**
     * **Serverless Architectures**
     * **Multi-Region Deployments**
@@ -226,10 +227,11 @@ Pick one provider and learn its core services. The concepts are transferable.
 
 ### 🎯 Caching Strategies
 * **Tier 1: Redis Fundamentals**
-    * [**Redis University (Official Courses)**](https://redis.com/redis-enterprise/training/redis-university/) - The best place to start learning Redis from the experts.
-    * [**Redis in Action (Book)**](https://redis.com/ebook/redis-in-action/) - A classic, practical guide to solving problems with Redis.
+    * [**Redis University (Official Courses)**](https://university.redis.io/) - The best place to start learning Redis from the experts.
+    * [**Redis in Action (Book)**](https://www.manning.com/books/redis-in-action) - A classic, practical Manning guide to solving problems with Redis (paid; no longer free on redis.io).
 * **Tier 2: Caching Patterns**
-    * [**AWS Caching Patterns (Article)**](https://aws.amazon.com/caching/caching-patterns/) - A great overview of common strategies like Cache-Aside, Read-Through, and Write-Through.
+    * [**AWS Caching Patterns (Docs)**](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html) - Overview of Cache-Aside (lazy loading) and Write-Through from the AWS Database Caching Strategies whitepaper.
+    * [**Scaling Memcache at Facebook (Paper)**](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala) - The canonical paper on caching at scale: leases to kill stampedes and stale sets, invalidation, and cross-region replication.
 * **Tier 3: Distributed Caching**
     * **Cache Invalidation Strategies**
     * **CDN Integration**
@@ -240,6 +242,7 @@ Pick one provider and learn its core services. The concepts are transferable.
     * [**RabbitMQ Tutorials (Official)**](https://www.rabbitmq.com/getstarted.html) - Fantastic tutorials with examples in many languages that teach the core patterns of message queues.
     * [**Celery Docs (Python)**](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html) - The go-to library for background jobs in the Python ecosystem.
 * **Tier 2: Message Patterns**
+    * [**The Log: What Every Software Engineer Should Know (Article)**](https://www.linkedin.com/blog/engineering/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) - Jay Kreps on the append-only log as the abstraction under replication, change data capture, and stream processing.
     * Re-read the chapters on Message Brokers in **"Designing Data-Intensive Applications"**.
 * **Tier 3: Event-Driven Architecture**
     * **Apache Kafka**
@@ -248,7 +251,9 @@ Pick one provider and learn its core services. The concepts are transferable.
 
 ### 🔭 Monitoring & Observability
 * **Tier 1: The Three Pillars**
-    * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/observability-vs-monitoring) - Understand the modern philosophy of observability (Logs, Metrics, Traces).
+    * [**Observability vs. Monitoring (Article)**](https://www.honeycomb.io/blog/difference-between-observability-monitoring) - Understand how observability and monitoring differ in purpose while sharing the same data.
+    * [**Google SRE Book (Book)**](https://sre.google/sre-book/table-of-contents/) - Free online; read Ch. 4 (SLOs) and Ch. 6 (Monitoring Distributed Systems) to learn what to measure, not just how.
+    * [**Dapper, a Large-Scale Distributed Systems Tracing Infrastructure (Paper)**](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/) - How Google made always-on tracing affordable: sampling, and instrumenting shared libraries instead of application code.
 * **Tier 2: Implementation**
     * [**Prometheus & Grafana (Docs)**](https://prometheus.io/docs/introduction/overview/) - Learn the industry-standard open-source stack for metrics and dashboards.
     * [**OpenTelemetry (Docs)**](https://opentelemetry.io/docs/) - The future of instrumentation. Learn how to generate traces from your applications.
@@ -266,12 +271,15 @@ This is the capstone that brings everything together.
 ### 📐 Design Fundamentals
 * **Tier 1: Core Concepts**
     * [**System Design Primer (GitHub Repo)**](https://github.com/donnemartin/system-design-primer) - The most famous free resource, covering a huge range of topics.
-    * [**Gaurav Sen (YouTube)**](https://www.youtube.com/@GauravSensei) - Excellent videos breaking down system design interview questions (e.g., "Design WhatsApp").
+    * [**Gaurav Sen (YouTube)**](https://www.youtube.com/@gkcs) - Excellent videos breaking down system design interview questions (e.g., "Design WhatsApp").
 
 ### 🔍 Deep Dives & Case Studies
 * **Tier 2: Real-World Examples**
     * [**Hussein Nasser (YouTube)**](https://www.youtube.com/@hnasr) - Extremely deep dives into specific backend technologies and protocols.
     * [**Engineering Blogs**](https://github.com/kilimchoi/engineering-blogs) - Read blogs from companies like Netflix, Uber, and Twitter to see how they solve problems at massive scale.
+    * [**Catalog of Patterns of Distributed Systems (Article)**](https://martinfowler.com/articles/patterns-of-distributed-systems/) - Unmesh Joshi's catalog of the building blocks: write-ahead log, leader and followers, quorum, leases, and Lamport clocks.
+    * [**How Discord Stores Trillions of Messages (Case Study)**](https://discord.com/blog/how-discord-stores-trillions-of-messages) - Hot partitions, compaction backlogs, and GC pauses on Cassandra: the request-coalescing layer and ScyllaDB migration that fixed them.
+    * [**Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service (Paper)**](https://www.usenix.org/conference/atc22/presentation/elhemali) - The hot-partition problem from the database's own side: admission control, bursting, adaptive capacity.
 
 ### 🚀 Advanced Architecture Patterns
 * **Tier 3: Mastery**
@@ -303,9 +311,7 @@ This is the capstone that brings everything together.
 
 ## 🤝 Contributing
 
-Contributions are welcome! This is a community-driven project. If you have a resource that you think is essential, or you've found a broken link, please feel free to open a [GitHub Issue]([YOUR_REPO_URL]/issues) or submit a pull request.
-
-Please read our [contributing guide]([LINK_TO_YOUR_CONTRIBUTING.MD]) for details on our code of conduct and the process for submitting pull requests to us.
+Contributions are welcome! This is a community-driven project. If you have a resource that you think is essential, or you've found a broken link, please feel free to open a [GitHub Issue](https://github.com/jaydeepkarale/backend-engineering-resources/issues) or submit a pull request.
 
 ## 🙏 Show Your Support
 
