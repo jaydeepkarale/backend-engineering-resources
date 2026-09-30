@@ -84,7 +84,7 @@ Stay updated with industry trends and deep technical insights.
 #### Individual Technical Blogs
 * [**Martin Fowler**](https://martinfowler.com/) - Software architecture and design patterns
 * [**High Scalability**](http://highscalability.com/) - System architecture case studies
-* [**All Things Distributed**](https://www.allthingsdistributed.com/) - AWS CTO's insights on distributed systems
+* [**All Things Distributed**](https://www.allthingsdistributed.com/) - Amazon.com CTO Werner Vogels on distributed systems
 
 ---
 
